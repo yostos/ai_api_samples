@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai-api-samples"
+version = "0.1.0"
+description = "AI API sample programs for OpenAI and Anthropic"
+authors = ["Toshiyuki Yoshida <yostos@yostos.org>"]
+readme = "README.md"
+packages = [{include = "ai_api_samples"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^1.13.3"
+anthropic = "^0.18.1"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
